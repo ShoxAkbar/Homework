@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>My Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <header class="modal-header">
+            <h1> Sign Up </h1>
+
+        </header>
+        <form class="form-horizontal" style="margin-top: 20px">
+            <div class="form-group">
+                <label for="inputEmail" class="control-label col-xs-2"> Email:</label>
+                <div class="col-xs-10">
+                    <span class="input-group">
+                        <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+                        <span class="input-group-addon">
+                            <i class="glyphicon glyphicon-envelope"></i>
+                        </span>
+                    </span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputPassword" class="control-label col-xs-2"> Password: </label>
+                <div class="col-xs-10">
+                    <input type="text" class="form-control" id="inputPassword" placeholder="Password">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputConfirmPassword" class="control-label col-xs-2"> Confirm Password: </label>
+                <div class="col-xs-10">
+                    <input type="text" class="form-control" id="inputConfirmPassword" placeholder="Confirm Password">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputFirstName" class="control-label col-xs-2"> First Name: </label>
+                <div class="col-xs-10">
+                    <input type="text" class="form-control" id="inputFirstName" placeholder="First Name">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputLastName" class="control-label col-xs-2"> Last Name: </label>
+                <div class="col-xs-10">
+                    <input type="text" class="form-control" id="inputLastName" placeholder="Last Name">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputPhone" class="control-label col-xs-2"> Phone: </label>
+                <div class="col-xs-10">
+                    <span class="input-group">
+                        <span class="input-group-addon">
+                            <i class="glyphicon glyphicon-phone-alt"></i>
+                        </span>
+                        <input type="text" class="form-control" id="inputPhone" placeholder="Phone Number">
+                    </span>
+                </div>
+            </div>
+            <div class="form-group ">
+                <label class="control-label col-xs-2" for="inputDateBirth"> Date of Birth: </label>
+                <div class="col-xs-10">
+                    <div class="row ">
+                        <div class="col-xs-4 ">
+                            <span class="input-group" style="width: 100%">
+                                <select class="form-control" id="inputdatebirth">
+                                    <option value="value0">Date</option>
+                                    <option value="value1">1</option>
+                                    <option value="value2">2</option>
+                                    <option value="value3">3</option>
+                                </select>
+                                <span class="input-group-addon" style="width: 10%">
+                                    <i class="glyphicon glyphicon-calendar"></i>
+                                </span>
+                            </span>
+                        </div>
+                        <div class="col-xs-4 ">
+                            <select class="form-control " style="width: 100%">
+                                <option value="value0">Month</option>
+                                <option value="value1">January</option>
+                                <option value="value2">February</option>
+                                <option value="value3">March</option>
+                            </select>
+                        </div>
+                        <div class="col-xs-4">
+                            <select class="form-control" id="" style="width: 100%">
+                                <option value="value0">Year</option>
+                                <option value="value1">1989</option>
+                                <option value="value2">1990</option>
+                                <option value="value3">1991</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-xs-2" for="inputaddress"> Address: </label>
+                <div class="col-xs-10">
+                    <textarea class="form-control well-lg" id="inputaddress" placeholder="Postal address"></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-xs-2" for="inputZipCode"> Zip Code: </label>
+                <div class="col-xs-10">
+                    <input type="text" class="form-control" id="inputZipCode" placeholder="Zip Code">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-xs-2 control-label"> Gender: </label>
+                <div class="col-xs-10 row">
+                    <div class="col-xs-2">
+                        <input type="radio" id="male">
+                        <label for="male" class="control-label"> Male</label>
+                    </div>
+                    <div class="col-xs-2">
+                        <input type="radio" id="female">
+                        <label for="female" class="control-label">Female</label>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-10 col-xs-offset-2">
+                    <input type="checkbox" id="smlnu">
+                    <label for="smlnu" class="control-label"> Send me latest news and updates </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-10 col-xs-offset-2">
+                    <input type="checkbox" id="iatc">
+                    <label for="smlnu" class="control-label"> I agree to the </label>
+                    <a href="#"><b> Terms and Conditions </b></a>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-xs-10 col-xs-offset-2">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-default">Reset</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
