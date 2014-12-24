@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title> Task1 </title>
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h2><p class="text-center text-success"> Planets List </p></h2>
+        <div class="row">
+            <div class="col-xs-6 text-center">
+                <h2> Mercury </h2>
+                <img src="images/mercury.jpg">
+            </div>
+            <div class="col-xs-6 text-center">
+                <h2> Jupiter </h2>
+                <img src="images/jupiter.jpg">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-6 text-center">
+                <h2> Earth </h2>
+                <img src="images/earth.jpg">
+            </div>
+            <div class="col-xs-6 text-center">
+                <h2> Pluto </h2>
+                <img src="images/pluto.jpg">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
