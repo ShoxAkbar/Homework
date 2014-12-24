@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title> Task2 </title>
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h2><p class="text-center"> Planets List </p></h2>
+        <button type="button" class="btn btn-info"> Add new cool planet </button>
+        <hr>
+        <table class="table">
+            <thead>
+            <tr>
+                <th><h3> № </h3></th>
+                <th><h3> Name </h3></th>
+                <th><h3> Image </h3></th>
+                <th><h3> Action </h3></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td><h3> 1 </h3></td>
+                <td><h3> Mercury </h3></td>
+                <td><img src="images/mercury.jpg"></td>
+                <td>
+                    <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> </button>
+                    <button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> </button>
+                </td>
+            </tr>
+            <tr>
+                <td><h3> 2 </h3></td>
+                <td><h3> Jupiter </h3></td>
+                <td><img src="images/jupiter.jpg"></td>
+                <td>
+                    <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> </button>
+                    <button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> </button>
+                </td>
+            </tr>
+            <tr>
+                <td><h3> 3 </h3></td>
+                <td><h3> Earth </h3></td>
+                <td><img src="images/earth.jpg"></td>
+                <td>
+                    <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> </button>
+                    <button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> </button>
+                </td>
+            </tr>
+            <tr>
+                <td><h3> 4 </h3></td>
+                <td><h3> Pluto </h3></td>
+                <td><img src="images/pluto.jpg"></td>
+                <td>
+                    <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-edit"></span> </button>
+                    <button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> </button>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
